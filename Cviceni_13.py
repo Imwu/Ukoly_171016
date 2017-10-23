@@ -10,3 +10,20 @@ for radek in range (5):
             else:
                 print (" ", end= " ")
         print ()
+
+
+# VARIANTA OD KOUCE
+
+#ona pojmenovavala v tomhle vzorci nasobilku jako radek a cislo jako sloupec:
+# for radek in range (1,5):
+#     for sloupec in range (1,5):
+#         print (nasobilka * cislo, end= " ")
+#     print ()
+
+# for radek in range (1,5):
+#     for sloupec in range (1,8):
+#         if radek == 1 or radek == 4 or sloupec == 1 or sloupec == 7:
+#             print ("x", end= " ")
+#         else:
+#             print (" ", end= " ")
+#     print ()
